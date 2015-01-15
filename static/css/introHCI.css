@@ -16,9 +16,15 @@ body {
      padding: 20px;
 }
 
+h4 {
+     text-align: center;
+     font-size: 25px;
+}
+
 .jumbotron {
 	position: relative;
 	background: none;
+     text-align: center;
 }
 
 .jumbotron:after {
@@ -31,4 +37,9 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.project p {
+     text-align: center;
+     margin-top: 10px;
 }
